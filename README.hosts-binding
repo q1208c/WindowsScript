@@ -1,0 +1,22 @@
+hosts-binding.js is a general usage script for manipulate hosts file
+on Windows system. 
+
+install:
+    There is no installation need, just copy this script into your 
+    computer's disk.
+    
+usage: 
+    just double click this script on Windows operating system. It will 
+    show a user right promotion if UAC is enabled.
+    If you click "Yes", it will read the hosts file. For each local 
+    IP/host(s) binding pair, it will split it as 
+        "pre comment|IP|hosts|comment|", 
+    and display it as a table. You can try comment this pair, uncomment
+    this pair, or delete this pair. There is four button under this 
+    table, 
+        "Confirm", "uncomment all", "comment all", "delete all".
+    If you need new pair, you can add it into the textarea, and press 
+    the "add new" button. 
+    Also, you can press "close" button to close this form, then, the
+    script will quit.
+
